@@ -249,3 +249,50 @@ iframe{
     width: 100%;
     margin: 10px 0;
 }
+
+/* CSS DE HISTORIA */
+
+.historia-principal{
+    background-image: url(../assets/images/historia-principal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.textos-historia p{
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.textos-historia h2{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+}
+.historia2 p{
+    margin-top: 10px;
+    padding: 10px;
+}
+.seccion{
+    display: flex;
+    flex-direction: column;
+}
+.seccion__titulo{
+    font-size: 18px;
+    text-decoration: underline violet;
+}
+.seccion__imagen{
+    max-width:100%;
+    height: auto;
+}
+.seccion__texto{
+    text-align: center;
+    font-weight: 900;
+    margin: 10px 0;
+}
