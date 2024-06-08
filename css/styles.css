@@ -20,9 +20,11 @@ h1,h2{
 }
 h1{
     font-size: 22px;
+    font-weight: 900;
 }
 h2{
     font-size: 18px;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 .noticia-principal{
@@ -41,8 +43,13 @@ h2{
     text-align: center;
     padding-bottom: 10px;
 }
+.descripcion-imagen p{
+    color: #fff;
+    font-weight: 500;
+}
 h3{
     font-size: 18px;
+    font-weight: 700;
     padding: 15px;
     text-align: center;
     text-shadow: 3px 11px 15px #87205b;
@@ -67,6 +74,7 @@ h3{
     padding: 10px;
     text-align: center;
     font-size: 18px;
+    color: black;
 }
 .link-externo a{
     text-decoration: none;
@@ -127,6 +135,7 @@ footer img{
 article p{
     margin-bottom: 7px;
     padding: 0 12px;
+    color: #2b2b2b;
 }
 .articulo{
     display: flex;
@@ -278,6 +287,7 @@ iframe{
 .historia2 p{
     margin-top: 10px;
     padding: 10px;
+    font-weight: 500;
 }
 .seccion{
     display: flex;
@@ -301,6 +311,7 @@ iframe{
     text-align: center;
     font-weight: 900;
     margin: 10px 0;
+    color: #2b2b2b;
 }
 @media (min-width:1024px){
     .seccion__main{
