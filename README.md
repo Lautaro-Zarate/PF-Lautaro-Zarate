@@ -1,0 +1,2 @@
+# PREMIER LEAGUE LATINOAMERICA
+La finalidad de esta pagina web es informar todo acerca de la Liga Inglesa, ya sea como resultados, fichajes, tabla de posiciones, y más noticias que nace cada fin de semana.
