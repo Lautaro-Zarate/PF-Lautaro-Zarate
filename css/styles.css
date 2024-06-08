@@ -287,8 +287,14 @@ iframe{
     font-size: 18px;
     text-decoration: underline violet;
 }
+.seccion__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .seccion__imagen{
-    max-width:100%;
+    max-width:50%;
     height: auto;
 }
 .seccion__texto{
@@ -296,3 +302,17 @@ iframe{
     font-weight: 900;
     margin: 10px 0;
 }
+@media (min-width:1024px){
+    .seccion__main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    .seccion__imagen{
+        margin-bottom: 10px;
+    }
+}
+
+
+/* CSS DE SOBRE-NOSOTROS */
+
