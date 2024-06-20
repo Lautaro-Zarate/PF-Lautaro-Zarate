@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */
