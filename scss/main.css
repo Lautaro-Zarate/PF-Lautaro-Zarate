@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Poppins;
+  background-color: #fff;
+}
+
+a:hover {
+  text-shadow: 0 20px 30px rgb(255, 255, 255);
+  text-decoration: underline;
+  font-weight: 900;
+}
+
 h1, h2 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -18,4 +29,39 @@ h1 {
 h2 {
   font-size: 18px;
   font-weight: 700;
+}
+
+footer {
+  width: 100%;
+  background-color: #2b2b2b;
+}
+footer img {
+  width: 150px;
+  height: 70px;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.footer-flex h3 {
+  color: #fff;
+  text-shadow: none;
+}
+.footer-flex p {
+  margin: 15px;
+  color: #fff;
+}
+
+.lista-footer ul li {
+  display: inline;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+.lista-footer img {
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=main.css.map */
