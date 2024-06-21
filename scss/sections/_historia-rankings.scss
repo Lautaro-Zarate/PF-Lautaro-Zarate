@@ -1,0 +1,41 @@
+.historia2{
+    p{
+        margin-top: 10px;
+        padding: 10px;
+        font-weight: 500;
+    }
+}
+.seccion{
+    display: flex;
+    flex-direction: column;
+}
+.seccion__titulo{
+    font-size: 18px;
+    text-decoration: underline violet;
+}
+.seccion__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccion__imagen{
+    max-width:50%;
+    height: auto;
+}
+.seccion__texto{
+    text-align: center;
+    font-weight: 900;
+    margin: 10px 0;
+    color: $color-bg-secondary;
+}
+@media (min-width:1024px){
+    .seccion__main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    .seccion__imagen{
+        margin-bottom: 10px;
+    }
+}

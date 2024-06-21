@@ -1,0 +1,40 @@
+
+.section-tabla{
+    h2{
+        margin: 20px 0;
+        .top-10{
+            color: $color-link-externo;
+            font-weight: 900;
+        }
+}
+    .tabla-posiciones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+}
+}
+table{
+    border: 2px solid $color-table;
+    thead{
+        font-weight: 700;
+        text-align: center;
+    }
+    tbody{
+        text-align: center;
+    }
+    td{
+        padding: 10px 10px;
+    }
+    tr:nth-child(odd){
+        background-color: $color-table;
+    }
+}
+@media (min-width: 768px){
+    .section-tabla h2{
+        font-size: 20px;
+    }
+    table{
+        width: 100%;
+    }
+}
