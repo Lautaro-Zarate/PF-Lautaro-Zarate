@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    background-color: $color-bg;
+    background-color: $color-bg-secondary;
     img{
         width: 150px;
         height: 70px;
@@ -13,7 +13,7 @@ footer{
     gap: 10px;
     h3{
         color: #fff;
-        text-shadow: none;
+        font-size: $h2-h3-size;
     }
     p{
         margin: 15px;

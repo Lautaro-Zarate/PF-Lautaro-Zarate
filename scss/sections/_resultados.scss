@@ -1,0 +1,15 @@
+.resultados{
+    display: flex;
+    margin: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    ul{
+        list-style: none;
+    }
+}
+.escudos-resultados{
+    width: auto;
+    height: 50px;
+}

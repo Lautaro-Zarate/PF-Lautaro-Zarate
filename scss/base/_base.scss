@@ -3,7 +3,7 @@ body{
     background-color: #fff;
 }
 a:hover{
-    text-shadow: 0 20px 30px rgb(255, 255, 255);
+    text-shadow: $nav-shadow;
     text-decoration: underline;
     font-weight: 900;
 }
@@ -19,4 +19,23 @@ h1{
 h2{
     font-size: $h2-h3-size;
     font-weight: 700;
+}
+h3{
+    font-size: 18px;
+    font-weight: 900;
+    padding: 15px;
+    text-align: center;
+}
+.link-externo{
+    margin: 25px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    a{
+        text-decoration: none;
+        color: $color-link-externo;
+        font-weight: 900;
+        text-shadow: 10px 10px 15px black;
+    }
 }

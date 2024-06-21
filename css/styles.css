@@ -92,7 +92,7 @@ footer{
 }
 .footer-flex h3{
     color: #fff;
-    text-shadow: none;
+    font-size: 20px;
 }
 footer img{
     width: 150px;
