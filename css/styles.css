@@ -8,6 +8,21 @@ body{
     font-family: Poppins;
     background-color: #fff;
 }
+.navbar-brand{
+    animation: text-focus-in 2.5s cubic-bezier(0.445, 0.050, 0.550, 0.950) infinite both;;
+}
+@-webkit-keyframes text-focus-in {
+    0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+    }
+    100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+    }
+}
 a:hover{
     text-shadow: 0 20px 30px rgb(255, 255, 255);
     text-decoration: underline;
@@ -207,6 +222,7 @@ article p{
 }
 table{
     border: 2px solid #708ecf7e;
+    max-width: 700px;
 }
 table thead{
     font-weight: 700;
@@ -230,7 +246,7 @@ table tbody tr:nth-child(odd){
     }
 }
 
-/* CSS DE IMAGENES */
+/* CSS DE GALERIA */
 
 h4{
     text-align: center;
@@ -242,18 +258,23 @@ h4{
     grid-template-columns: 100%;
 }
 .imagenes-grid img{
-    width: 100%;
+    width: 100%px;
     height: auto;
     margin: 10px 0;
     padding: 5px;
 }
+.imagenes-grid img:hover{
+    height: 350px;
+    width: 350px;
+}
 @media (min-width:1024px){
     .imagenes-grid{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     .imagenes-grid img{
-        height: 500px;
+        height: 300px;
+        width: 350px;
     }
 }
 .video{
