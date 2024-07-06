@@ -11,7 +11,7 @@ body{
 .navbar-brand{
     animation: text-focus-in 2.5s cubic-bezier(0.445, 0.050, 0.550, 0.950) infinite both;;
 }
-@-webkit-keyframes text-focus-in {
+@keyframes text-focus-in {
     0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
@@ -274,7 +274,8 @@ h4{
     }
     .imagenes-grid img{
         height: 300px;
-        width: 350px;
+        width: 340px;
+        margin-left: 15px;
     }
 }
 .video{
